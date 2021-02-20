@@ -1,3 +1,7 @@
+*{
+  color:black;
+}
+
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
@@ -5,4 +9,17 @@ body {
 
 a {
   color: #00B7FF;
+  text-decoration: none;
+}
+
+a:hover{
+  color:#298fb8;
+  text-decoration: underline;
+}
+
+li {
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 20px;
+  list-style: none;
 }
